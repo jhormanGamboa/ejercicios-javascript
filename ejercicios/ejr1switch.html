@@ -1,0 +1,22 @@
+<body>
+    <script>
+        var edad=prompt("Ingresa tu edad");
+        auxedad=parseInt(edad)
+        switch(true){
+            case auxedad > 0 && auxedad <= 9:
+                document.write("Eres un niño");
+                break;
+            case auxedad >= 10 && auxedad <= 17:
+                document.write("Eres un adolescente");
+                break;
+            case auxedad >= 18 && auxedad <= 64:
+                document.write("Eres un adulto");
+                break;
+            case auxedad >= 65:
+                document.write("Eres un adulto mayor");
+                break;
+            default:
+                document.write("Edad no válida");
+        }
+    </script>
+</body>

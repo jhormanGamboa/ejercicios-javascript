@@ -1,0 +1,20 @@
+<body>
+    <script>
+        var num1 = parseInt(prompt("Ingrese el primer número"));
+        var num2 = parseInt(prompt("Ingrese el segundo número"));
+
+        var sumatoria = 0;
+        var cantidad = 0;
+
+        for (var i = num1; i <= num2; i++) {
+            sumatoria += i; 
+            cantidad++; 
+        }
+
+        var promedio = sumatoria / cantidad;
+
+        document.write("La sumatoria de los números entre " + num1 + " y " + num2 + " es: " + sumatoria);
+        document.write("El promedio es: " + promedio);
+
+    </script>
+</body>

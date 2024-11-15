@@ -1,0 +1,60 @@
+<body>
+    <script>
+        var sumaimpar = 0;
+        var sumapar = 0;
+
+        while (true) {
+            var input = prompt("Ingrese un número o escriba 'cancelar' para salir:");
+
+            if (input === "cancelar") {
+                break;
+            }
+
+            var numero = parseInt(input);
+
+            if (isNaN(numero)) {
+                alert("Por favor, ingrese un número válido.");
+                continue;
+            }
+
+            if (numero % 2 === 0) {
+                sumapar += numero;
+            } else {
+                sumaimpar += numero;
+            }
+        }
+
+        document.write("La suma de los números pares es: " + sumapar + "<br>");
+        document.write("La suma de los números impares es: " + sumaimpar);
+    </script>
+</body>
+<body>
+    <script>
+        var sumaimpar = 0;
+        var sumapar = 0;
+
+        while (true) {
+            var escribir = prompt("Ingrese un número o escriba 'cancelar' para salir:");
+
+            if (escribir === "cancelar") {
+                break;
+            }
+
+            var numero = parseInt(input);
+
+            if (isNaN(numero)) {
+                alert("Por favor, ingrese un número válido.");
+                continue;
+            }
+
+            if (numero % 2 === 0) {
+                sumapar += numero;
+            } else {
+                sumaimpar += numero;
+            }
+        }
+
+        document.write("La suma de los números pares es: " + sumapar + "<br>");
+        document.write("La suma de los números impares es: " + sumaimpar);
+    </script>
+</body>

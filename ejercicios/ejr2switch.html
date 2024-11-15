@@ -1,0 +1,28 @@
+<body>
+    <script>
+        var numero1 = parseFloat(prompt("Ingrese el primer número"));  // Primer número
+        var numero2 = parseFloat(prompt("Ingrese el segundo número"));  // Segundo número
+        var operador = prompt("Ingrese un operador aritmético (+, -, *, /)");  // Operador
+
+        switch (operador) {
+            case "+":
+                console.log("Resultado: " + (numero1 + numero2));
+                break;
+            case "-":
+                console.log("Resultado: " + (numero1 - numero2));
+                break;
+            case "*":
+                console.log("Resultado: " + (numero1 * numero2));
+                break;
+            case "/":
+                if (numero2 !== 0) {
+                    console.log("Resultado: " + (numero1 / numero2));
+                } else {
+                    console.log("Error: División por cero no permitida.");
+                }
+                break;
+            default:
+                console.log("Operador no válido");
+        }
+    </script>
+</body>
